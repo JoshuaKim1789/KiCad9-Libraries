@@ -1,9 +1,11 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "R_PWR263S-35"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -103,18 +105,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -127,7 +117,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -151,7 +141,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -163,42 +165,6 @@
 			)
 		)
 		(symbol "R_PWR263S-35_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -2.54 1.27 0)
 				(length 1.27)
@@ -235,10 +201,49 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "R_SMD_0603_1608M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -318,18 +323,6 @@
 		(symbol "R_SMD_0603_1608M_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -342,7 +335,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -366,7 +359,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -415,9 +420,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "R_SMD_0805_2012M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -496,18 +504,6 @@
 		(symbol "R_SMD_0805_2012M_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -520,7 +516,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -544,7 +540,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -593,9 +601,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "R_SMD_2010_5025M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -675,18 +686,6 @@
 		(symbol "R_SMD_2010_5025M_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -699,7 +698,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -723,7 +722,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -772,9 +783,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "R_SMD_2512_6332M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -854,18 +868,6 @@
 		(symbol "R_SMD_2512_6332M_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -878,7 +880,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -902,7 +904,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -951,9 +965,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "R_THD_0.25W"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -1033,18 +1050,6 @@
 		(symbol "R_THD_0.25W_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -1057,7 +1062,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1081,7 +1086,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1130,9 +1147,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "R_THD_CMF60"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -1212,18 +1232,6 @@
 		(symbol "R_THD_CMF60_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
@@ -1236,7 +1244,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1260,7 +1268,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1309,6 +1329,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "0"
 		(extends "R_SMD_0603_1608M")
@@ -1346,7 +1367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0Ω ±1% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 0Ω ±1% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2109,7 +2130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1kΩ ±1% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 1kΩ ±1% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2436,7 +2457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 2kΩ ±5% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 2kΩ ±5% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2545,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 3.3kΩ ±5% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 3.3kΩ ±5% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2654,7 +2675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 33Ω ±1% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 33Ω ±1% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2700,6 +2721,115 @@
 			)
 		)
 		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "4.7K/2012"
+		(extends "R_SMD_0805_2012M")
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K/2012"
+			(at -2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_footprint_Resistor:R_0805_2012Metric"
+			(at 1.016 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor SMD 0805 2012Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "CRCW08054K70FKEAC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844630"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2872,7 +3002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 47kΩ ±1% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 47kΩ ±1% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2981,7 +3111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 5.6kΩ ±5% 100mW SMD 0603 1608Metric "
+		(property "Description" "Resistor 5.6kΩ ±5% 100mW SMD 0603 1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
