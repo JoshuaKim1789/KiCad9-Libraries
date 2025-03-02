@@ -1,7 +1,7 @@
 (footprint "CNC_3221-10-0100-00"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.05781 -3.8943 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1.402378 1.402378)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de7dd0bb-94b7-4892-9831-1aac1223bc02")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -109,7 +97,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "cf0bcea9-4c36-483c-bcfa-5028f1ac4a1a")
 	)
@@ -200,7 +188,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8ac438bc-006f-4694-a4e4-5faa75b7e395")
 	)
@@ -294,7 +282,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "dc61c4ab-a318-4f1e-9045-2af4a0a28e6c")
 	)
-	(model "${KICAD9_USER_3DMODEL_DIR}/Connector.3dshapes/3221-10-0100-00 3D.stp"
+	(embedded_fonts no)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Connector.3dshapes/3221-10-0100-00_3D.stp"
 		(offset
 			(xyz 0 0 2.5)
 		)

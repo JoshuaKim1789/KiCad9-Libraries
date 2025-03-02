@@ -433,7 +433,7 @@
 		(uuid "1a033ee7-b527-4a41-b17b-63966f1accfa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/2.8 TFT Module.stp"
+	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/2.8_TFT_Module.stp"
 		(offset
 			(xyz 40.75 -16.5 2.9)
 		)

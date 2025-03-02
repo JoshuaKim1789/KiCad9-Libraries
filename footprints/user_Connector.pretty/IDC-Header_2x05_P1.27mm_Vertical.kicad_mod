@@ -1,7 +1,7 @@
 (footprint "IDC-Header_2x05_P1.27mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.05781 -3.8943 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "55dbdca4-3a35-4a33-a174-ac3106cfbce0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -110,7 +98,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a42b3cbc-b43a-4e18-96c1-51570a511618")
 	)
@@ -201,7 +189,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "139802c8-c8bb-43b9-b410-622531f1dbfc")
 	)
@@ -295,7 +283,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "6bd3ada7-60b5-4641-a947-66933e66c67d")
 	)
-	(model "${KICAD9_USER_3DMODEL_DIR}/Connector.3dshapes/3221-10-0100-00 3D.stp"
+	(embedded_fonts no)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Connector.3dshapes/3221-10-0100-00_3D.stp"
 		(offset
 			(xyz 0 0 2.5)
 		)
