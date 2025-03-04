@@ -1,7 +1,7 @@
 (footprint "SOIC-8_MCS1806_MNP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "MCS1806GS-3-30-Z ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b02cf1b3-6a98-4afc-a882-84f96688b69e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -578,18 +566,6 @@
 	)
 	(fp_text user "*"
 		(at -2.7178 -3.6068 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "622f0c23-3f77-470e-a4bc-7feb6566f58a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.7178 -3.6068 0)
 		(layer "F.SilkS")
 		(uuid "f4e88bc4-b18d-40df-a706-55ce9b59268a")
 		(effects
@@ -637,51 +613,52 @@
 	(pad "1" smd rect
 		(at -2.4638 -1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "21c20f25-7dfc-419c-b48f-ee206543311e")
 	)
 	(pad "2" smd rect
 		(at -2.4638 -0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "63186021-b99c-412f-a48b-9dadc68ed195")
 	)
 	(pad "3" smd rect
 		(at -2.4638 0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd0daa67-51b4-4fe5-b5e5-954a80412895")
 	)
 	(pad "4" smd rect
 		(at -2.4638 1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b6eab2b-caf4-4a38-b907-68778c1da37a")
 	)
 	(pad "5" smd rect
 		(at 2.4638 1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "371a8a7a-0b04-4fcb-b418-518592cbe297")
 	)
 	(pad "6" smd rect
 		(at 2.4638 0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ec06bdad-77f1-4ca3-b0eb-87525d8225d1")
 	)
 	(pad "7" smd rect
 		(at 2.4638 -0.635)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "193696a3-fc07-4096-aeb4-14617b3096f9")
 	)
 	(pad "8" smd rect
 		(at 2.4638 -1.905)
 		(size 1.9812 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87a98b20-897d-4e42-a54d-8a0c143368e8")
 	)
+	(embedded_fonts no)
 	(model "${KICAD9_USER_3DMODEL_DIR}/IC.3dshapes/SOIC-8_MCS1806_MNP.step"
 		(offset
 			(xyz 0 0 0)
