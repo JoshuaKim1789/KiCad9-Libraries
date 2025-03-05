@@ -4503,7 +4503,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
@@ -4563,7 +4563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Type" "SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4572,7 +4572,25 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Manufacturer" "Wurth"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "7466113"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-5246-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16572,7 +16590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5188322"
 			(at 0 0 0)
 			(effects
 				(font
