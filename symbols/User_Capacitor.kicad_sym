@@ -1,9 +1,11 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "C_Disc_P7.5"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -85,7 +87,7 @@
 		(symbol "C_Disc_P7.5_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -97,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -146,9 +148,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_Rect_13x05_P10"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -230,7 +235,7 @@
 		(symbol "C_Rect_13x05_P10_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -242,7 +247,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -291,9 +296,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_Rect_18x06_P15"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -375,7 +383,7 @@
 		(symbol "C_Rect_18x06_P15_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -387,7 +395,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -436,9 +444,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_Rect_18x09_P15"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -520,7 +531,7 @@
 		(symbol "C_Rect_18x09_P15_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -532,7 +543,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -581,9 +592,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_SMD_0603_1608M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -665,7 +679,7 @@
 		(symbol "C_SMD_0603_1608M_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -677,7 +691,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -726,9 +740,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_SMD_0805_2012M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -810,7 +827,7 @@
 		(symbol "C_SMD_0805_2012M_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -822,7 +839,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -871,9 +888,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_SMD_1206_3216M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -955,7 +975,7 @@
 		(symbol "C_SMD_1206_3216M_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -967,7 +987,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -1016,9 +1036,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C_SMD_1210_3225M"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1100,7 +1123,7 @@
 		(symbol "C_SMD_1210_3225M_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -1112,7 +1135,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -1161,6 +1184,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "0.1uF"
 		(extends "C_SMD_0603_1608M")
@@ -1533,7 +1557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 3KV SL RADIAL P7.5mm "
+		(property "Description" "CAP CER 100PF 3KV SL RADIAL P7.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1773,7 +1797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Samsung Electro-Mechanics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0.762 -11.43 0)
 			(effects
 				(font

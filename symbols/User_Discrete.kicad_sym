@@ -716,7 +716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " YONGYUTAI"
+		(property "Manufacturer" "YONGYUTAI"
 			(at 0 0 0)
 			(effects
 				(font
