@@ -6053,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transceiver 10Mbps 1/1 SOP-8 RS-485 / RS-422"
+		(property "Description" "Transceiver 10Mbps 1/1 SOP-8 RS-485 / RS-422. 5V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Differential bus transceiver, SOIC-8"
+		(property "Description" "Differential bus transceiver, SOIC-8, 4.75V ~ 5.25V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6735,6 +6735,117 @@
 			)
 		)
 	)
+	(symbol "SP3485EN"
+		(extends "SN75176")
+		(property "Reference" "U"
+			(at -4.318 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP3485EN"
+			(at 1.016 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_footprint_IC:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/1 Transceiver Half RS422, RS485 8-SOIC, 3V ~ 3.6V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MaxLinear, Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "SP3485EN-L/TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1016-1817-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8963"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Differential bus transceiver"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "THVD1450"
 		(extends "SN75176")
 		(property "Reference" "U"
@@ -6772,7 +6883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/1 Transceiver Half RS485 8-SOIC"
+		(property "Description" "1/1 Transceiver Half RS485 8-SOIC, 3V ~ 5.5V"
 			(at 0 0 0)
 			(effects
 				(font
