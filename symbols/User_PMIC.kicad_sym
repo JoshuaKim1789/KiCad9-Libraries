@@ -94,7 +94,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "2A Buck DC/DC"
+		(property "ki_keywords" "3A Buck DC/DC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136,7 +136,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,7 +172,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,7 +208,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,7 +226,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
