@@ -1552,7 +1552,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "RMCF0603ZT0R00CT-ND"
 			(at 0 0 0)
 			(effects
 				(font
