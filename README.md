@@ -1,6 +1,6 @@
 # My KiCad 9 Libraries
 
-Last Updated: July 31, 2025
+Last Updated: Aug. 07, 2025
 
 ---
 
