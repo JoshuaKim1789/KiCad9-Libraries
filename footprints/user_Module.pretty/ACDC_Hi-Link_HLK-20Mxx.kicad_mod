@@ -1,0 +1,196 @@
+(footprint "ACDC_Hi-Link_HLK-20Mxx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ACDC-Converter, 20W, Hi-Link, HLK-20Mxx, THT, https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9720W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9120W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "ACDC-Converter 20W THT Hi-Link board mount module")
+	(property "Reference" "REF**"
+		(at 25.5 -14.2 0)
+		(layer "F.SilkS")
+		(uuid "7eabfdd4-0d9d-4848-bd70-215ed0139a18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ACDC_Hi-Link_HLK-20Mxx"
+		(at 25.5 23.2 0)
+		(layer "F.Fab")
+		(uuid "b9e4b2b8-d25f-4d53-9504-5bda0436d799")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f168c1c1-084d-4366-9c21-dda21d7c0efa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c8d0f7b-610a-4ddf-9ed7-ce010f036ac6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.36 -13.36)
+		(end 55.36 -13.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbf26e09-6bb9-404c-8339-5afd797119df")
+	)
+	(fp_line
+		(start -4.36 -0.296)
+		(end -4.36 -13.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ccb49e8-b993-41c3-adda-9bdc0b81cf8e")
+	)
+	(fp_line
+		(start -4.36 22.36)
+		(end -4.36 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ffb8732-cad7-4ba1-ad56-e33bae2403dd")
+	)
+	(fp_line
+		(start 55.36 -13.36)
+		(end 55.36 22.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67e69649-09c9-443b-b2f0-aaa1e3545bf4")
+	)
+	(fp_line
+		(start 55.36 22.36)
+		(end -4.36 22.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7aeecae2-7790-4dcd-8e6a-545c600f1dc8")
+	)
+	(fp_poly
+		(pts
+			(xy -4.36 0) (xy -4.97 0.44) (xy -4.97 -0.44)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ac84c234-03df-4648-8601-509a936d0612")
+	)
+	(fp_rect
+		(start -4.5 -13.5)
+		(end 55.5 22.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "96c222a5-246c-467f-8595-5c4013fa41b4")
+	)
+	(fp_poly
+		(pts
+			(xy -3.25 -11.25) (xy -3.25 21.25) (xy 54.25 21.25) (xy 54.25 -12.25) (xy -2.25 -12.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "465b0141-954c-4240-a9ce-3940bc00d78d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 25.5 4.5 0)
+		(layer "F.Fab")
+		(uuid "f5991f7c-ea06-4e0f-b049-3a90d154ef50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "a2e15e3b-5cca-4dd0-9e4f-84d579f37237")
+	)
+	(pad "2" thru_hole oval
+		(at 0 9)
+		(size 2 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1c2c02e-b2a5-4ee5-b98b-c069aac854a5")
+	)
+	(pad "3" thru_hole oval
+		(at 51 -9)
+		(size 2 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eaac0e75-4b71-498a-9c5e-f3bac9b5f916")
+	)
+	(pad "4" thru_hole oval
+		(at 51 18)
+		(size 2 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4ef5fb6-4f7b-4987-9ff4-f5250276592c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Hi-Link_HLK-20Mxx.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
