@@ -1,0 +1,208 @@
+(footprint "DCDC_7-SIP_4P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Isolated Module DC DC Converter 1 Output, 7-SIP Module, 4 Leads,  (19.5mm x 6.0mm x 10.0mm)")
+	(tags "DCDC 7-SIP 4P")
+	(property "Reference" "REF**"
+		(at -1.65 -3.35 0)
+		(layer "F.SilkS")
+		(uuid "0e04c02a-2b41-445b-b6a5-68eac4459f55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DCDC_7-SIP_4P"
+		(at -1.65 18.05 0)
+		(layer "F.Fab")
+		(uuid "55572057-3fe2-46d2-a5fa-2aa9301412c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47b43f3f-78e0-4850-9e72-690e30453c92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isolated Module DC DC Converter 1 Output, 7-SIP Module, 4 Leads,  (19.5mm x 6.0mm x 10.0mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da47bece-7b9b-49e9-8580-6b89e6187178")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.76 -2.51)
+		(end 1.46 -2.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fbec0c6-dbd3-40bd-a988-3c41e64761d4")
+	)
+	(fp_line
+		(start -4.76 -0.296)
+		(end -4.76 -2.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ed76552-b766-44b4-b5de-a89e16a36a20")
+	)
+	(fp_line
+		(start -4.76 17.21)
+		(end -4.76 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a898e00b-15cc-44a0-a544-d3b8915b17c6")
+	)
+	(fp_line
+		(start 1.46 -2.51)
+		(end 1.46 17.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "335aab9c-c9cb-459c-84ea-6fd05dfb8a2d")
+	)
+	(fp_line
+		(start 1.46 17.21)
+		(end -4.76 17.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b53aa6e0-8583-4693-bfae-7fe06b9aba68")
+	)
+	(fp_poly
+		(pts
+			(xy -4.76 0) (xy -5.23 0.34) (xy -5.23 -0.34)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3e2f4b53-ebea-4f91-aeea-5861cb2038ed")
+	)
+	(fp_rect
+		(start -4.9 -2.65)
+		(end 1.6 17.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9653d7a2-8e0f-46f7-b376-56d356d75f8d")
+	)
+	(fp_poly
+		(pts
+			(xy -4.65 -1.4) (xy -4.65 17.1) (xy 1.35 17.1) (xy 1.35 -2.4) (xy -3.65 -2.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "77f44bc1-a880-4212-9ccc-92020a8eac5c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.65 7.35 0)
+		(layer "F.Fab")
+		(uuid "23df9c91-1771-4589-8d2d-12992fe3f9b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.166667)
+		(uuid "1883c98a-7446-493c-a8b3-007a3fc188ed")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dbf57e3-caaf-4ca3-b3f0-a2141492d5fe")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "855fc6bb-ffa6-4ee8-b50d-98e40fe7e16c")
+	)
+	(pad "6" thru_hole circle
+		(at 0 12.7)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52a253b8-3c5d-4a7d-a50f-1263efae1db9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/RFB-0505S.STEP"
+		(hide yes)
+		(offset
+			(xyz -1.75 -7.75 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/SIP-4(7)_A6.step"
+		(offset
+			(xyz -1.6 -7.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
