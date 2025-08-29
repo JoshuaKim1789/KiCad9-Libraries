@@ -1,4 +1,4 @@
-(footprint "DCDC_7-SIP_4P"
+(footprint "DCDC_7-SIP_4P_W6"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "DCDC_7-SIP_4P"
+	(property "Value" "DCDC_7-SIP_4P_W6"
 		(at -1.65 18.05 0)
 		(layer "F.Fab")
 		(uuid "55572057-3fe2-46d2-a5fa-2aa9301412c2")
@@ -182,18 +182,6 @@
 		(uuid "52a253b8-3c5d-4a7d-a50f-1263efae1db9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/RFB-0505S.STEP"
-		(hide yes)
-		(offset
-			(xyz -1.75 -7.75 0.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 90)
-		)
-	)
 	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/SIP-4(7)_A6.step"
 		(offset
 			(xyz -1.6 -7.6 0)
