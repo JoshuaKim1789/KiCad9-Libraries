@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "DCDC_7-SIP_4P_W7"
-		(at -1.65 18.05 0)
+		(at -1.65 18.796 0)
 		(layer "F.Fab")
 		(uuid "55572057-3fe2-46d2-a5fa-2aa9301412c2")
 		(effects
@@ -53,8 +53,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -6.223 -2.159)
-		(end 0.889 -2.159)
+		(start -6.223 -2.286)
+		(end 0.889 -2.286)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,7 +64,7 @@
 	)
 	(fp_line
 		(start -6.223 -0.296)
-		(end -6.223 -2.159)
+		(end -6.223 -2.286)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,7 +73,7 @@
 		(uuid "0ed76552-b766-44b4-b5de-a89e16a36a20")
 	)
 	(fp_line
-		(start -6.223 17.296)
+		(start -6.223 17.526)
 		(end -6.223 0.34)
 		(stroke
 			(width 0.12)
@@ -83,8 +83,8 @@
 		(uuid "a898e00b-15cc-44a0-a544-d3b8915b17c6")
 	)
 	(fp_line
-		(start 0.889 -2.113)
-		(end 0.889 17.399)
+		(start 0.889 -2.286)
+		(end 0.889 17.526)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -93,8 +93,8 @@
 		(uuid "335aab9c-c9cb-459c-84ea-6fd05dfb8a2d")
 	)
 	(fp_line
-		(start 0.889 17.399)
-		(end -6.223 17.399)
+		(start 0.889 17.526)
+		(end -6.223 17.526)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,7 +115,7 @@
 		(uuid "3e2f4b53-ebea-4f91-aeea-5861cb2038ed")
 	)
 	(fp_rect
-		(start -6.2968 -2.413)
+		(start -6.4238 -2.413)
 		(end 0.9652 17.587)
 		(stroke
 			(width 0.05)
@@ -127,7 +127,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -6.096 -0.724475) (xy -6.096 17.343725) (xy 0.793 17.343725) (xy 0.793 -2.156275) (xy -4.6642 -2.156275)
+			(xy -6.223 -0.597475) (xy -6.223 17.343725) (xy 0.793 17.343725) (xy 0.793 -2.156275) (xy -4.6642 -2.156275)
 		)
 		(stroke
 			(width 0.1)
@@ -138,7 +138,7 @@
 		(uuid "77f44bc1-a880-4212-9ccc-92020a8eac5c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -1.65 7.35 0)
+		(at -1.778 -5.08 0)
 		(layer "F.Fab")
 		(uuid "23df9c91-1771-4589-8d2d-12992fe3f9b9")
 		(effects

@@ -1,0 +1,559 @@
+(footprint "MODULE_SC0193_9_HAT_RS485X2A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Raspberry Pi 4 Module B SC0193(9) + HAT RS485 2H")
+	(property "Reference" "REF**"
+		(at -37.325 -29.635 0)
+		(layer "F.SilkS")
+		(uuid "2e369486-ee26-400a-810e-199538c0f356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MODULE_SC0193_9_HAT_RS485X2A"
+		(at -30.54 29.965 0)
+		(layer "F.Fab")
+		(uuid "8765de84-ecb5-4dba-9ae8-7d366af37701")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4edb2cd9-2369-4790-bb0f-407a027ba36a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Raspberry Pi 4 Module B SC0193(9) + HAT RS485 2H"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b35d989-58ed-4b0e-b3a6-ba162ce3e115")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -42.5 -25)
+		(end -42.5 25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12d41ccc-8cbd-47c0-b55f-e760ac9ee0ca")
+	)
+	(fp_line
+		(start -39.5 28)
+		(end 39.5 28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "254ba0ce-58ed-4af1-8dc0-77010f062fa8")
+	)
+	(fp_line
+		(start 39.5 -28)
+		(end -39.5 -28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6acd85b2-e499-4cb6-b15a-8b6e539b21ae")
+	)
+	(fp_line
+		(start 42.5 25)
+		(end 42.5 -25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fec44ddd-5603-4a6e-9e92-5f8eeb95a569")
+	)
+	(fp_arc
+		(start -42.5 -25)
+		(mid -41.62132 -27.12132)
+		(end -39.5 -28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e5cf70b-f10a-4ea3-8886-36950bca60e9")
+	)
+	(fp_arc
+		(start -39.5 28)
+		(mid -41.62132 27.12132)
+		(end -42.5 25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cc0d9b9-2568-43b3-8d0d-300f3d919e62")
+	)
+	(fp_arc
+		(start 39.5 -28)
+		(mid 41.62132 -27.12132)
+		(end 42.5 -25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "429b836f-f0ab-441c-b0c5-24373f47db76")
+	)
+	(fp_arc
+		(start 42.5 25)
+		(mid 41.62132 27.12132)
+		(end 39.5 28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06cd0500-d18f-458e-b02c-6dd64dbe6c94")
+	)
+	(fp_circle
+		(center -43.4 -23)
+		(end -43.3 -23)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8db6a10a-56ad-41cc-a6aa-3449a3c606ef")
+	)
+	(fp_line
+		(start -42.75 -28.25)
+		(end 45.25 -28.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a650896b-0065-4a1c-9a64-dd316a14ae48")
+	)
+	(fp_line
+		(start -42.75 30.75)
+		(end -42.75 -28.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37298d1a-ba0b-437f-a9cb-2cbc64f446a4")
+	)
+	(fp_line
+		(start 45.25 -28.25)
+		(end 45.25 30.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9625643a-ace5-42a4-8dbf-536ffec48384")
+	)
+	(fp_line
+		(start 45.25 30.75)
+		(end -42.75 30.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff93cdf4-26bf-4eaf-af65-264ea082f4c6")
+	)
+	(fp_line
+		(start -42.5 -25)
+		(end -42.5 25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8beaee65-620c-4cdb-a696-341bc62210d2")
+	)
+	(fp_line
+		(start -39.5 28)
+		(end 39.5 28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea5b6914-e95e-416e-b3d1-a4bea8602bf2")
+	)
+	(fp_line
+		(start 23.5 -25.5)
+		(end 23.5 25.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8c6163a-e580-42cd-aca2-894067022752")
+	)
+	(fp_line
+		(start 23.5 25.5)
+		(end 45 25.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a61ba15-bbc3-4192-a6ad-a541fbce09d7")
+	)
+	(fp_line
+		(start 39.5 -28)
+		(end -39.5 -28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4ecc244-e855-4c59-aa97-595a42908372")
+	)
+	(fp_line
+		(start 42.5 25)
+		(end 42.5 -25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99f2951b-13ce-4ba9-b790-2b88387ce227")
+	)
+	(fp_line
+		(start 45 -25.5)
+		(end 23.5 -25.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a31292d-c569-4f0b-925c-b7dc846f197f")
+	)
+	(fp_line
+		(start 45 25.5)
+		(end 45 -25.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64d6380d-eafd-41bb-87fd-ec83415d041a")
+	)
+	(fp_arc
+		(start -42.5 -25)
+		(mid -41.62132 -27.12132)
+		(end -39.5 -28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f65bcc9-622d-4318-bb45-ed25447c04fb")
+	)
+	(fp_arc
+		(start -39.5 28)
+		(mid -41.62132 27.12132)
+		(end -42.5 25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43b0de8e-d6fe-4c42-9068-ed52164bb5b9")
+	)
+	(fp_arc
+		(start 39.5 -28)
+		(mid 41.62132 -27.12132)
+		(end 42.5 -25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57e7b47f-62bb-4c43-b982-a7117eedcd84")
+	)
+	(fp_arc
+		(start 42.5 25)
+		(mid 41.62132 27.12132)
+		(end 39.5 28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "812039b6-d772-4e74-8c4b-4b1551194512")
+	)
+	(fp_circle
+		(center -43.4 -23)
+		(end -43.3 -23)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1fc65301-c5c2-4982-92ed-dbc0fbbdf132")
+	)
+	(pad "S1" thru_hole circle
+		(at -39 -24.5)
+		(size 6.2 6.2)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c26098c9-8f90-402c-aa64-89f240546ad7")
+	)
+	(pad "S2" thru_hole circle
+		(at 19 -24.5)
+		(size 6.2 6.2)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "09a898c9-ca9f-4c45-bdde-0ca617f0af4e")
+	)
+	(pad "S3" thru_hole circle
+		(at 19 24.5)
+		(size 6.2 6.2)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "61fe7636-5530-4bf6-b643-3bbe6b854dd8")
+	)
+	(pad "S4" thru_hole circle
+		(at -39 24.5)
+		(size 6.2 6.2)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4b0fc5bc-bc64-4d05-9a35-29c0446f3fb8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/SC0193(9)--3DModel-STEP-418109.STEP"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L11mm.stp"
+		(offset
+			(xyz -99 -24.5 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L5mm.stp"
+		(offset
+			(xyz -39 -24.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Nut M2.5 v2.step"
+		(offset
+			(xyz -39 -24.5 -3.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/M2.5 x 4 Screw head.STEP"
+		(offset
+			(xyz -39 -24.5 21.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L5mm.stp"
+		(offset
+			(xyz -39 24.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L5mm.stp"
+		(offset
+			(xyz 19 24.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L5mm.stp"
+		(offset
+			(xyz 19 -24.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Nut M2.5 v2.step"
+		(offset
+			(xyz 19 -24.5 -3.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Nut M2.5 v2.step"
+		(offset
+			(xyz 19 24.5 -3.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Nut M2.5 v2.step"
+		(offset
+			(xyz -39 24.5 -3.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L11mm.stp"
+		(offset
+			(xyz -41 -24.5 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L11mm.stp"
+		(offset
+			(xyz -99 24.5 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/Hex Standoff, Male-Female, M2.5, L11mm.stp"
+		(offset
+			(xyz -41 24.5 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/M2.5 x 4 Screw head.STEP"
+		(offset
+			(xyz 19 24.5 21.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/M2.5 x 4 Screw head.STEP"
+		(offset
+			(xyz 19 -24.5 21.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Etc.3dshapes/M2.5 x 4 Screw head.STEP"
+		(offset
+			(xyz -39 24.5 21.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/Pi-HAT_RS485-v1.10.step"
+		(offset
+			(xyz -42.5 -28 17.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
