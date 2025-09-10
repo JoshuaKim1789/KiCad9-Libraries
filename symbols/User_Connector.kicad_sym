@@ -1117,6 +1117,155 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "1704837"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at -3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1704837"
+			(at -6.604 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "User_footprint_Connector:PHOENIX_1704837"
+			(at -16.51 -4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TERM BLOCK 1POS SIDE ENTRY PCB"
+			(at 0.762 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "THD"
+			(at 0 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at -0.508 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR P/N" "1704837"
+			(at -0.508 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "277-10194-1-ND"
+			(at -0.508 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17629125"
+			(at -1.016 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1704837_0_0"
+			(pin passive line
+				(at 2.54 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1704837_0_1"
+			(rectangle
+				(start -5.08 2.794)
+				(end 0 -0.254)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -5.08 2.286)
+				(end -0.762 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "22-04-1021"
 		(pin_names
 			(offset 1.016)
@@ -5505,7 +5654,7 @@
 			)
 		)
 		(property "Description" "TERM REDCUBE M3 1PIN SMD"
-			(at 0 0 0)
+			(at 1.016 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5663,7 @@
 			)
 		)
 		(property "Comment" "7466113"
-			(at -5.08 -8.89 0)
+			(at -5.588 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5673,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 0 0 0)
+			(at -1.524 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5682,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth"
-			(at 0 0 0)
+			(at -0.762 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5691,7 @@
 			)
 		)
 		(property "MFR P/N" "7466113"
-			(at 0 0 0)
+			(at -0.254 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5700,7 @@
 			)
 		)
 		(property "DigiKey" "732-5246-ND"
-			(at 0 0 0)
+			(at 0.762 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
