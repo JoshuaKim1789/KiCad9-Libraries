@@ -1130,8 +1130,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A 60dB@(120Hz) Fixed 3.3V~3.3V Positive 18V SOT-223 Linear Voltage Regulators (LDO)"
-			(at 0 0 0)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223"
+			(at -5.08 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 0 0 0)
+			(at -0.254 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW"
-			(at 0 0 0)
+			(at 0.254 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1158,7 @@
 			)
 		)
 		(property "MFR P/N" "AMS1117-3.3"
-			(at 0 0 0)
+			(at 0.254 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 			)
 		)
 		(property "DigiKey" "4518-AMS1117-3.3CT-ND"
-			(at 0 0 0)
+			(at 0.762 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 			)
 		)
 		(property "LCSC" "C347222"
-			(at 0 0 0)
+			(at -1.016 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)

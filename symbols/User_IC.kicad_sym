@@ -4016,8 +4016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "I/O Expander 8 I²C 1.7 MHz 20-SSOP"
-			(at 0 0 0)
+		(property "Description" "I/O Expander 8 I2C 1.7 MHz 20-SSOP"
+			(at 0 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4026,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 0 0 0)
+			(at -0.508 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4035,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 0 0 0)
+			(at -2.794 -26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4044,7 @@
 			)
 		)
 		(property "MFR P/N" "MCP23008T-E/SS"
-			(at 0 0 0)
+			(at 0.508 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "DigiKey" "MCP23008T-E/SSCT-ND"
-			(at 0 0 0)
+			(at 0 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 			)
 		)
 		(property "LCSC" "C629435"
-			(at 0 0 0)
+			(at 1.016 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
