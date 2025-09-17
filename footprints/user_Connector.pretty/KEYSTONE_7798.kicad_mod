@@ -1,0 +1,219 @@
+(footprint "KEYSTONE_7798"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.56 -6.87 0)
+		(layer "F.SilkS")
+		(uuid "355eb866-0973-42eb-9970-12b5efc4ee14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_7798"
+		(at 1.52 6.87 0)
+		(layer "F.Fab")
+		(uuid "74d5588f-4fb7-4e23-b61c-22dc4b6c41f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9e0594d-d5c7-42fa-b6bb-1c262f694c39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc9c5942-cd85-47b2-ab90-186ff386da96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.44 -1.695)
+		(end -6.44 1.695)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13ff9c83-6829-4c84-bf94-632c688d0957")
+	)
+	(fp_line
+		(start 6.44 -1.695)
+		(end 6.44 1.695)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fff6eef3-9a21-4e5a-b6b6-24fbe75f956f")
+	)
+	(fp_line
+		(start -6.735 -5.235)
+		(end -6.735 5.235)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a31ae952-f9cd-40e0-9d84-bf9fa871f3af")
+	)
+	(fp_line
+		(start -6.735 5.235)
+		(end 6.735 5.235)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66707afa-5601-4efc-b658-f9fa1e9d5f12")
+	)
+	(fp_line
+		(start 6.735 -5.235)
+		(end -6.735 -5.235)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d5a8b67-056a-4636-919d-9686249372f4")
+	)
+	(fp_line
+		(start 6.735 5.235)
+		(end 6.735 -5.235)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8bea5c0-50ce-452b-88e6-57e0194c61e1")
+	)
+	(fp_line
+		(start -6.44 -3.95)
+		(end -6.44 3.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35f37449-39ec-4cf0-ae71-b2118074bc19")
+	)
+	(fp_line
+		(start -6.44 3.95)
+		(end 6.44 3.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2ab997f-75ce-4a31-a399-0c84f5138752")
+	)
+	(fp_line
+		(start 6.44 -3.95)
+		(end -6.44 -3.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f516e168-6c09-4286-9ec9-a83d1efb1363")
+	)
+	(fp_line
+		(start 6.44 3.95)
+		(end 6.44 -3.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c956b985-0eed-400b-be67-93889d9e01d4")
+	)
+	(pad "1" thru_hole circle
+		(at -5 -3.5)
+		(size 2.97 2.97)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f635e0cd-6ede-4cd9-bfd7-ae0997a0fc8b")
+	)
+	(pad "1" thru_hole circle
+		(at -5 3.5)
+		(size 2.97 2.97)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "931c1935-7b79-4e18-abb1-f715f92a8877")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.5)
+		(size 2.97 2.97)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "25f4e11e-3336-4bc8-81e3-c6adac561a61")
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.5)
+		(size 2.97 2.97)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "693986c2-2dd2-40c3-9bc8-cc1dfdece781")
+	)
+	(pad "1" thru_hole circle
+		(at 5 -3.5)
+		(size 2.97 2.97)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d980417a-3b9e-418f-b7de-d567514d5f52")
+	)
+	(pad "1" thru_hole circle
+		(at 5 3.5)
+		(size 2.97 2.97)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f2b87e1c-5839-485a-9cac-ff6e6f5bd7c0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_USER_3DMODEL_DIR}/Connector.3dshapes/7798.step"
+		(offset
+			(xyz 6.5 0 -5.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
