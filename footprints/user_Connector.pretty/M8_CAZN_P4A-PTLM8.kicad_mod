@@ -51,8 +51,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -6.6 2.4)
-		(end -6.6 8.6)
+		(start -6.6 -1.2)
+		(end -6.6 5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -61,8 +61,8 @@
 		(uuid "30a10a86-3733-4476-8015-ea5be8df3ee2")
 	)
 	(fp_line
-		(start -6.6 8.6)
-		(end 6.6 8.6)
+		(start -6.6 5)
+		(end 6.6 5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -71,8 +71,8 @@
 		(uuid "6cc346ed-5022-4550-8636-66c5fe93b713")
 	)
 	(fp_line
-		(start 6.6 8.6)
-		(end 6.6 2.4)
+		(start 6.6 5)
+		(end 6.6 -1.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -302,8 +302,8 @@
 		(uuid "e0fcc048-7abf-45bd-b715-c57fb1795b2d")
 	)
 	(fp_line
-		(start 6.6 8.6)
-		(end -6.6 8.6)
+		(start 6.6 5)
+		(end -6.6 5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -312,8 +312,8 @@
 		(uuid "0a314d42-c483-4a56-bd6c-9a4007116b7a")
 	)
 	(fp_line
-		(start 6.6 8.6)
-		(end 12 8.6)
+		(start 6.6 5)
+		(end 12 5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -343,7 +343,7 @@
 		(uuid "464091fe-acea-4aa4-b56d-49ff72f23765")
 	)
 	(fp_text user "PANEL EDGE"
-		(at 7 8.25 0)
+		(at 7 5.7 0)
 		(layer "F.Fab")
 		(uuid "82a9ab37-7b4d-4ec9-a083-ca8df39391f0")
 		(effects
@@ -385,9 +385,9 @@
 		(solder_mask_margin 0.102)
 		(uuid "d6d4c5af-7eac-464c-8a7e-d5a03b8756ca")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
 		(at -1.7 0.5)
-		(size 1.7 1.7)
+		(size 1.65 1.65)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -396,7 +396,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -1.075 -1.25)
-		(size 1.7 1.7)
+		(size 1.65 1.65)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -405,7 +405,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at 1.7 0.5)
-		(size 1.7 1.7)
+		(size 1.65 1.65)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -414,7 +414,7 @@
 	)
 	(pad "4" thru_hole circle
 		(at 1.075 -1.25)
-		(size 1.7 1.7)
+		(size 1.65 1.65)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
