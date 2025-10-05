@@ -1051,29 +1051,6 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_RAYEX-L90S.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_USER_3DMODEL_DIR}/Relay.3dshapes/HF105F-1-Z.stp"
-		(offset
-			(xyz -4.5 13 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -180)
-		)
-	)
 	(model "${KICAD9_USER_3DMODEL_DIR}/Relay.3dshapes/HF165FD-ZY1.STEP"
 		(offset
 			(xyz 1 0 12)
