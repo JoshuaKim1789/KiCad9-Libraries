@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "RA-01SH"
+		(property "MFR P/N" "RA-01SH-IPEX"
 			(at 0.254 -19.304 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4570-RA-01SHCT-ND"
+		(property "DigiKey" ""
 			(at -0.254 -19.304 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2764087"
+		(property "LCSC" ""
 			(at -0.254 -19.304 0)
 			(effects
 				(font
@@ -1198,7 +1198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "User_footprint_Module:DCDC_7-SIP_4P"
+		(property "Footprint" "User_footprint_Module:DCDC_7-SIP_4P_W6"
 			(at -26.67 -6.35 0)
 			(effects
 				(font
@@ -2432,7 +2432,7 @@
 			(pin input line
 				(at -21.59 8.89 0)
 				(length 2.54)
-				(name "SENSOR_VP"
+				(name "I36/SVP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2450,7 +2450,7 @@
 			(pin input line
 				(at -21.59 6.35 0)
 				(length 2.54)
-				(name "SENSOR_VN"
+				(name "I39/SVN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 			(pin input line
 				(at -21.59 3.81 0)
 				(length 2.54)
-				(name "IO34"
+				(name "I34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2486,7 +2486,7 @@
 			(pin input line
 				(at -21.59 1.27 0)
 				(length 2.54)
-				(name "IO35"
+				(name "I35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Isolated DC DC CONVERTER 12V 1W"
+		(property "Description" "Isolated Module DC DC Converter 1 Output 5V 200mA 10.8V - 13.2V Input"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4793,6 +4793,15 @@
 			)
 		)
 		(property "MFR P/N" "B1205LS-1W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "2725-B1205LS-1WR3-ND"
 			(at 0 0 0)
 			(effects
 				(font
