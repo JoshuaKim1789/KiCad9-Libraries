@@ -8915,7 +8915,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -15.24 15.24 0)
 				(length 2.54)
 				(name "~{INT}"
