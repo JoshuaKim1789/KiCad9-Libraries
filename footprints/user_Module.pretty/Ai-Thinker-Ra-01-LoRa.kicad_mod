@@ -313,6 +313,38 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8bc3573-29eb-4523-86b1-8e3a840e04ef")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "32db9b65-fc36-4a34-8347-ddb070563c9f")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.874 -8.382) (xy -7.874 8.382) (xy 7.874 8.382) (xy 7.874 -8.382)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${KICAD9_USER_3DMODEL_DIR}/Module.3dshapes/LoRa_Module_RA-02_AiThinker.step"
 		(offset

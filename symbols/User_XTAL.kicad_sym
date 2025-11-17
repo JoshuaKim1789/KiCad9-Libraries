@@ -461,7 +461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRYSTAL 25MHz 20pF SMD"
+		(property "Description" "CRYSTAL 25MHz 12pF SMD"
 			(at 1.016 -6.35 0)
 			(effects
 				(font
@@ -479,7 +479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JLYE"
+		(property "Manufacturer" "YXC Crystal Oscillators"
 			(at 0.508 -6.35 0)
 			(effects
 				(font
@@ -488,7 +488,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "Y322525MLBCX"
+		(property "MFR P/N" "X322525MOB4SI"
 			(at 2.032 -6.35 0)
 			(effects
 				(font
@@ -497,7 +497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49158112"
+		(property "LCSC" "C9006"
 			(at 1.778 -6.35 0)
 			(effects
 				(font

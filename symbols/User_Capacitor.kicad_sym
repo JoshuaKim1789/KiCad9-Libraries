@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 6.8nF 25V X7R 0603"
+		(property "Description" "CAP CER 6.8nF 50V X7R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "CC0603KRX7R8BB682"
+		(property "MFR P/N" "CC0603KRX7R9BB682"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3900,7 +3900,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-4090-1-ND"
+		(property "DigiKey" "311-1084-1-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519425"
+		(property "LCSC" "C107097"
 			(at 0 0 0)
 			(effects
 				(font

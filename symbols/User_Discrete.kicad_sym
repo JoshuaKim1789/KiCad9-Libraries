@@ -881,7 +881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 2106 3216(M) 589nm Yellow 120° 48mW"
+		(property "Description" "Yellow 590nm LED Indication - Discrete 2.1V 1206 (3216 Metric)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -899,7 +899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YONGYUTAI"
+		(property "Manufacturer" "XINGLIGHT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -908,7 +908,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "YLED1206Y"
+		(property "MFR P/N" "XL-3216UYC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -917,7 +917,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "5962-XL-3216UYCTR-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -926,7 +926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C30584802"
+		(property "LCSC" "C965824"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3663,7 +3663,7 @@
 			)
 		)
 	)
-	(symbol "BSS138LT1G"
+	(symbol "BSS138"
 		(extends "Q_NMOS_GSD_SOT-23")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
@@ -3674,7 +3674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138LT1G"
+		(property "Value" "BSS138"
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -3710,15 +3710,6 @@
 				(hide yes)
 			)
 		)
-		(property "MFR P/N" "BSS138LT1G"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Type" "SMD"
 			(at 0 0 0)
 			(effects
@@ -3728,7 +3719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "DIODES"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3737,7 +3728,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "BSS138LT1GOSCT-ND"
+		(property "MFR P/N" "BSS138-7-F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3746,7 +3737,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "DigiKey" "BSS138-FDICT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C40912"
 			(at 0 0 0)
 			(effects
 				(font
