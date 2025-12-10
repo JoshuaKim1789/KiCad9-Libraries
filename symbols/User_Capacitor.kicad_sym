@@ -4122,6 +4122,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2831783"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "cap capacitor"
 			(at 0 0 0)
 			(effects
@@ -4383,7 +4392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.22 µF Film Capacitor 310V Polypropylene (PP), Metallized Radial"
+		(property "Description" "0.22 µF Film Capacitor 310V Polypropylene (PP), Metallized Radial, X2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4420,6 +4429,15 @@
 			)
 		)
 		(property "DigiKey" "732-5836-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C46638866"
 			(at 0 0 0)
 			(effects
 				(font

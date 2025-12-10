@@ -4868,7 +4868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FUSE CERAMIC 2A 250VAC AXIAL"
+		(property "Description" "FUSE AXIAL 3.6x10mm AXIAL 2A 250V Slow Blow I2T=12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7098824"
+		(property "LCSC" "C5381702"
 			(at 0 0 0)
 			(effects
 				(font
